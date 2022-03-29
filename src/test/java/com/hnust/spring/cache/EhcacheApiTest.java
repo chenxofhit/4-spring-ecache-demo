@@ -116,7 +116,7 @@ public class EhcacheApiTest {
      */
     @Test
     public void create04() {
-        URL url = getClass().getResource("/cache/ehcache.xml");
+        URL url = getClass().getResource("/ehcache/ehcache.xml");
         CacheManager manager = CacheManager.newInstance(url);
         String[] cacheNames = manager.getCacheNames();
 
