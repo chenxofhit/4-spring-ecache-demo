@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-ecache-demo-master:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-ecache-demo-master</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-ecache-demo-master-1.0.0.war">
+      <element id="artifact" artifact-name="spring-ecache-demo-master:war exploded" />
+    </root>
+  </artifact>
+</component>
